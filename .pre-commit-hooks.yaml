@@ -1,6 +1,6 @@
 - id: license-header-check
   name: License Header Check
   description: Checks file headers for the given software license template.
-  entry: main
+  entry: check:main
   language: python
   types: [text]
