@@ -21,7 +21,7 @@ def check(paths: list[str], options: argparse.Namespace) -> int:
         with open(path, "r") as f:
             lineno = 0
             found = False
-            breakpoint()
+            print(f"Check path {path} with header {header}")
             try:
                 for line in f:
                     if header.search(line):
