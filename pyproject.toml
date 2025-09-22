@@ -1,0 +1,29 @@
+[project]
+name = "license-header-check"
+version = "0.1.0"
+description = "A flexible license header checker suitable for use with precommit."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "David Li", email = "lidavili.davidm96@gmail.com" },
+  { name = "Bryce Mecum", email = "brycemecum@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+]
+
+[project.scripts]
+license_header_check = "check:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
