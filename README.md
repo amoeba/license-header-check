@@ -23,9 +23,20 @@ This package is designed to be used with [pre-commit](https://pre-commit.com).
 Here's an example...
 
 ```yaml
-TODO
+repos:
+  - repo: https://github.com/amoeba/license-header-check
+    rev: 4ef6db370e563ad84fc0d03ce27e5c253e64426a
+    hooks:
+      - id: license-header-check
+        args:
+          - "--template"
+          - >-
+            Copyright \(c\) [YEAR] My Company Inc\.  All rights reserved\.
+
 ```
+
+Note: Using teh `>-` may be critical because `|` in YAML adds a newline.
 
 ## Contributing
 
-TODO
+Please file [Issues](https://github.com/amoeba/license-header-check/issues) to report bugs, request features, or ask for help.
