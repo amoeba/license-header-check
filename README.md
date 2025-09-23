@@ -27,7 +27,7 @@ Here's an example...
 ```yaml
 repos:
   - repo: https://github.com/amoeba/license-header-check
-    rev: 4ef6db370e563ad84fc0d03ce27e5c253e64426a
+    rev: v0.1
     hooks:
       - id: license-header-check
         args:
