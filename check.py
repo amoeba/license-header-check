@@ -27,7 +27,7 @@ def check(paths: list[str], options: argparse.Namespace) -> int:
                         found = True
                         break
                     lineno += 1
-                    if lineno > options.max_lines:
+                    if lineno > int(options.max_lines):
                         break
             except UnicodeDecodeError:
                 print(f"Cannot read {path} as text, skipping")
