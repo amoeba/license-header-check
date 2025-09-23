@@ -5,8 +5,8 @@ description = "A flexible license header checker suitable for use with precommit
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
-  { name = "David Li", email = "lidavili.davidm96@gmail.com" },
   { name = "Bryce Mecum", email = "brycemecum@gmail.com" },
+  { name = "David Li", email = "lidavili.davidm96@gmail.com" },
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",

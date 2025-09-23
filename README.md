@@ -1,9 +1,11 @@
 # license-header-check
 
 Checks file headers for the given software license template.
+Designed to be used with [pre-commit](https://pre-commit.com).
 
 Numerous other solutions can be found online but many make certain choices about how license text should appear in headers.
 This package tries to be as flexible as possible.
+The original approach was by [lidavidm](https://github.com/lidavidm) and [amoeba](https://github.com/amoeba) converted it into a package for use with [pre-commit](https://pre-commit.com).
 
 ## Installation
 
@@ -35,7 +37,7 @@ repos:
 
 ```
 
-Note: Using teh `>-` may be critical because `|` in YAML adds a newline.
+Note: Using teh `>-` may be critical for your use case because `|` in YAML adds a newline.
 
 ## Contributing
 
